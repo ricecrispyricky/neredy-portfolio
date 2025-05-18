@@ -21,7 +21,7 @@ nav li {
   margin: 0 1.5rem;
 }
 nav a {
-  color: #f72585;
+  color: #f72525;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2rem;
@@ -30,8 +30,9 @@ nav a {
   border-bottom: 2px solid transparent;
 }
 nav a.active, nav a:hover {
-  color: #b5179e;
-  border-bottom: 2px solid #f72585;
+  color: #32a720;
+  border-bottom: 2px solid #32a720
+;
 }
 .hero, .about, .projects {
   max-width: 700px;
