@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nerdy Portfolio - Projects</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="projects">
+      <h1>My Projects</h1>
+      <div class="project-list">
+        <div class="project-card" id="project1-card" tabindex="0" style="cursor:pointer;">
+          <h2>Project 1</h2>
+          <p>Online calculator</p>
+        </div>
+        <div class="project-card" id="project2-card" tabindex="0" style="cursor:pointer;">
+          <h2>Click the Square</h2>
+          <p>Another colorful project that showcases my skills in [tech/field].</p>
+        </div>
+      </div>
+      <section class="calculator-section" id="calculator-section" style="display:none;">
+        <h2>🧮 Simple Online Calculator</h2>
+        <div class="calculator">
+          <input type="text" id="calc-display" readonly>
+          <div class="calc-buttons">
+            <button>7</button><button>8</button><button>9</button><button>/</button>
+            <button>4</button><button>5</button><button>6</button><button>*</button>
+            <button>1</button><button>2</button><button>3</button><button>-</button>
+            <button>0</button><button>.</button><button>=</button><button>+</button>
+            <button id="calc-clear">C</button>
+          </div>
+        </div>
+      </section>
+      <div id="game-modal" class="game-modal" style="display:none;">
+        <div class="game-content">
+          <button id="close-game" aria-label="Close game">✖</button>
+          <h2>🎮 Click the Square Game!</h2>
+          <p>Click the moving square as many times as you can in 10 seconds!</p>
+          <div id="game-area">
+            <div id="game-square"></div>
+          </div>
+          <div id="game-score">Score: 0</div>
+          <div id="game-timer">Time: 10</div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+  </footer>
+</body>
+</html>
